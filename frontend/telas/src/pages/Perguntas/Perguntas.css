@@ -1,0 +1,97 @@
+.background-imagepgt {
+    background-image: url('../../assets/fundoforum.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+    display: flex;
+    flex-direction: column; /* Altere o layout para empilhar os elementos verticalmente */
+    align-items: center;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 100px;
+    /* margin-bottom: 20px; Adicione margem na parte inferior para separar os elementos */
+}
+
+.quadrado2 {
+    width: 550px;
+    height: 270px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px; /* Adicione margem na parte superior para separar os elementos */
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.rounded-input3 {
+    width: 510px; /* Largura do input */
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #e7e7e7; /* Cor de fundo branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-size: 16px;
+    outline: none; /* Remove a borda de foco padrão */
+    margin-bottom: 10px;
+    vertical-align: 'top';
+    text-align: justify ;
+    line-height: normal; /* Isso ajuda a evitar o espaçamento extra entre as linhas*/
+    word-wrap: 'hard';
+    
+}
+
+.rounded-input {
+    width: 550px; /* Largura do input */
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-size: 16px;
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+.user2{
+    height: 30px;
+}
+
+.user-container2 {
+    display: flex;
+    align-items: center; /* Alinhe verticalmente a imagem e o texto */
+    margin-right: 10px; /* Adicione uma margem à direita para separar a imagem e o texto */
+}
+.check-container2 {
+    display: flex;
+    align-items: center; /* Alinhe verticalmente a imagem e o texto */
+    margin-right: 10px; /* Adicione uma margem à direita para separar a imagem e o texto */
+    float: right;
+}
+
+.user-text2 {
+    font-size: 16px; /* Estilize o texto ao seu gosto */
+    color: #333; /* Defina a cor do texto desejada */
+}
+
+.rounded-input2 {
+    width: 510px; /* Largura do input */
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #e4e4e4; /* Cor de fundo branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-size: 16px;
+    outline: none; /* Remove a borda de foco padrão */
+    margin-bottom: 10px;
+    vertical-align: 'top';
+    text-align: justify ;
+    line-height: normal; /* Isso ajuda a evitar o espaçamento extra entre as linhas*/
+    word-wrap: 'hard';
+    
+}
+
+.check2{
+    width: 50px;
+    margin-bottom: 5px;
+}

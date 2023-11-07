@@ -1,0 +1,52 @@
+.comment{
+    margin-left: 240px;
+}
+#tituloComent{
+    margin-top: 15px;
+}
+.comentarioContainer{
+    width: 55vw;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoesComent button{
+    display: flex;
+    margin: 5px;
+    margin-top: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 170px;
+    background-color: #e0e0e0;
+}
+
+#btnCmt{
+    width: 25px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.btnAdd{
+    margin-top: 15%;
+    margin-right: 50px;
+    text-align: end;
+}
+#add{
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #89DFBB;
+}
+#add :hover{
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #7dceac;
+}
+#addBtn{
+    width: 100px;    
+}

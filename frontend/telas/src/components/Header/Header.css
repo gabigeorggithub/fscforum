@@ -1,0 +1,88 @@
+.header-container1 {
+    background-color: #89DFBB; /* Cor de fundo verde-água */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+  }
+  
+  .left-section1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo1 {
+    width: 180px; /* Ajuste o tamanho da imagem de acordo com suas necessidades */
+    height: auto;
+    
+  }
+  .logout {
+    width: 40px; /* Ajuste o tamanho da imagem de acordo com suas necessidades */
+    height: auto;
+    margin-left: 170vh;
+
+    
+  }
+  
+  .right-section1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    /* padding: 5px ; */
+    margin-right: 10px; 
+  }
+  
+  .search-input1 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 10px;
+    width: auto;
+  }
+  
+  .search-button1 {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .lupa-icon1 {
+    width: 20px; /* Ajuste o tamanho do ícone de acordo com suas necessidades */
+    height: 20px;
+  }
+  
+  .user-actions1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button1 {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .register-button1 {
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,42 @@
+ 
+.background-image {
+    background-image: url('../../assets/fundoforum.png');
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado-branco {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70vh;
+}
+
+/* Estilize os campos de entrada (input) aqui */
+.quadrado-branco input {
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    border: none; /* Remova as bordas padrão */
+    border-radius: 5px; /* Cantos parcialmente arredondados */
+    padding: 10px;
+    width: 50vh;
+    margin-left: 45px;
+
+}
+
+/* Estilize os rótulos (labels) aqui, se necessário */
+.quadrado-branco label {
+    font-weight: lighter;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 45px;
+}
+.quadrado-branco p {
+    font-weight: lighter;
+    text-align: center;
+}
+
+  

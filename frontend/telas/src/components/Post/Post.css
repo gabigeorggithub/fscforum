@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1366px;
+    max-height: 1349px;
+}
+
+.comment-container {
+    padding: 10px;
+    width: 65vw;
+    background-color: #e0e0e0;
+    border-radius: 20px;  
+    font-weight:530;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.conteudoDoPost{
+    display: flex;
+    
+}
+
+.user {
+    width: 40px;
+    height: auto;
+    /* border-radius: 50%; */
+    margin-right: 10px;
+}
+
+.postText h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.space{
+    margin-top: 25px;
+    height: 2px;
+    background-color:white;
+}
+
+.sessaoBotoes{
+    display: flex;
+    /* width: 30vw; */
+}
+.button {
+    display: flex;
+    margin: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 130px;
+    align-items: center;
+}
+
+.button p {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+#btnshare{
+    width: 25px;
+}
+
+#btnImg{
+    width: 25px;
+}
+
+ 
+.btnAdd{
+    /* margin-top: 15%; */
+    margin-right: 50px;
+    text-align: end;
+}
+
+#addBtn{
+    width: 100px;
+}

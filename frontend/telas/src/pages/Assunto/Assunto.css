@@ -1,0 +1,14 @@
+#addBtn2{
+    width: 100px;
+}
+.btnAdd{
+    /* margin-top: 15%; */
+    margin-right: 50px;
+    text-align: end;
+}
+#add2{
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #89DFBB;
+}

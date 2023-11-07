@@ -1,0 +1,75 @@
+.background-imagecomm {
+    background-image: url('../../assets/fundoforum.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh;
+    display: flex;
+    flex-direction: column; /* Altere o layout para empilhar os elementos verticalmente */
+    align-items: center;
+}
+
+.quadrado {
+    width: 550px;
+    height: 270px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin-top: 20px; /* Adicione margem na parte superior para separar os elementos */
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+.user{
+    height: 30px;
+    width: auto;
+}
+
+.user-container {
+    display: flex;
+    align-items: center; /* Alinhe verticalmente a imagem e o texto */
+    margin-right: 10px; /* Adicione uma margem à direita para separar a imagem e o texto */
+}
+.check-container {
+    display: flex;
+    align-items: center; /* Alinhe verticalmente a imagem e o texto */
+    margin-right: 10px; /* Adicione uma margem à direita para separar a imagem e o texto */
+    float: right;
+}
+
+.user-text {
+    font-size: 16px; /* Estilize o texto ao seu gosto */
+    color: #333; /* Defina a cor do texto desejada */
+}
+
+.rounded-input2 {
+    width: 510px; /* Largura do input */
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #ffffff; /* Cor de fundo branca */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-size: 16px;
+    outline: none; /* Remove a borda de foco padrão */
+    margin-bottom: 10px;
+    vertical-align: 'top';
+    text-align: justify ;
+    line-height: normal; /* Isso ajuda a evitar o espaçamento extra entre as linhas*/
+    word-wrap: 'hard';
+    
+}
+
+.check{
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.titulozinho{
+    font-size: 40px;
+    color: #89DFBB;
+    font-weight: lighter;
+    justify-content: left;
+    margin-left: -200px;
+    margin-top: 30px;
+}
